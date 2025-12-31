@@ -1,0 +1,11 @@
+{
+  "weights": {
+    "Citizen": 1,
+    "Validator": 5,
+    "Founder": 10
+  },
+  "quorum": {
+    "default": 0.66,
+    "amendment": 0.80
+  }
+}
