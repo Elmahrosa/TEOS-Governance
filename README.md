@@ -1,23 +1,27 @@
-![CI](https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/actions/workflows/ci.yml/badge.svg?branch=main)
+![CI](https://github.com/Elmahrosa/TEOS-Governance/actions/workflows/ci.yml/badge.svg?branch=main)
 
-# TEOS‑Governance
+# 🇪🇬 TEOS-Governance
 
-Audit‑ready International Civic Blockchain Constitution  
+**Audit‑ready International Civic Blockchain Constitution**  
 Validator rules, governance schemas, CI tests, and compliance framework.
 
-This repo contains the foundational governance documents for the TEOS civic blockchain ecosystem.
+This repository contains the foundational governance documents and execution layer for the TEOS civic‑first sovereign framework. It defines the proposal lifecycle, validator rules, voting weights, quorum evaluation, and auditable outcomes.
 
-## Content
+---
 
-- **CONSTITUTION.md** — Civic blockchain constitution
-- **governance/** — Validator rules, proposal schema, voting weights
-- **compliance/** — Audit checklist
-- **tests/** — Governance tests
-- **.github/workflows** — CI test runner
+## 📂 Contents
+- **CONSTITUTION.md** — Civic blockchain constitution reference
+- **governance/** — Schemas, validator rules, proposal lifecycle, voting weights, quorum models
+- **compliance/** — Audit checklist and compliance framework
+- **tests/** — Governance validation tests
+- **.github/workflows/** — CI runner (lint + tests)
 
-## How to test
+---
 
+## 🚀 Run Locally
 ```bash
-npm init -y
-npm install ajv jest
-npx jest
+# Install dependencies
+npm ci
+
+# Run governance tests
+npm test
