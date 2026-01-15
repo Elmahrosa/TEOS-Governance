@@ -1,3 +1,5 @@
+![CI](https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/actions/workflows/ci.yml/badge.svg?branch=main)
+
 # TEOS‑Governance
 
 Audit‑ready International Civic Blockchain Constitution  
