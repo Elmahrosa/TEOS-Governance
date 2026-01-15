@@ -1,19 +1,11 @@
 {
   "name": "teos-governance",
-  "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "ajv": "^8.17.1",
-    "jest": "^30.2.0"
+  "devDependencies": {
+    "jest": "^29.0.0"
   }
 }
