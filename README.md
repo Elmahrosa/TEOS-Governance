@@ -1,6 +1,15 @@
 ![CI](https://github.com/Elmahrosa/TEOS-Governance/actions/workflows/ci.yml/badge.svg?branch=main)
 
 # TEOS Governance
+## 🌍 Policy & Sustainable Development Alignment
+
+TEOS Governance is designed as a **policy-ready Web3 governance framework**.
+
+Key documents:
+- Web3 Policy Definition → `docs/web3-policy.md`
+- UN SDG Alignment → `docs/sdg-alignment.md`
+- SDG × TEOS Modules Matrix → `docs/sdg-teos-matrix.md`
+- Ministerial Impact Map → `docs/ministerial-impact-map.md`
 
 **TEOS-Governance** defines the governance execution layer for the TEOS civic-first sovereign framework.
 
