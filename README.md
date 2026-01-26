@@ -1,3 +1,5 @@
+[![CI](https://github.com/Elmahrosa/TEOS-Governance/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Elmahrosa/TEOS-Governance/actions/workflows/ci.yml)
+
 # 🏛️ TEOS Governance | ELMAHROSA
 **Sovereign Governance & Decision Authority Layer**
 
