@@ -1,11 +1,56 @@
-﻿{
-    "status":  "development",
-    "governance":  {
-                       "framework":  "TEOS-FORGE-GLOBAL",
-                       "compliance_standard":  "Universal-DPI"
-                   },
-    "project":  "TEOS-Governance",
-    "version":  "1.0.0",
-    "organization":  "Elmahrosa",
-    "registry":  "https://github.com/Elmahrosa/elmahrosa-core.git"
+{
+  "schema": "teos.manifest.v1",
+  "name": "TEOS-Governance",
+  "repo": "Elmahrosa/TEOS-Governance",
+  "role": "Core",
+  "status": "active",
+  "version": "1.0.0",
+  "authority": {
+    "icbc": "https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution",
+    "tesl_canonical": "https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE"
+  },
+  "stewardship": {
+    "teos_forge": "https://github.com/Elmahrosa/TEOS-FORGE",
+    "kernel": "https://github.com/Elmahrosa/elmahrosa-core"
+  },
+  "interfaces": {
+    "provides": [
+      "governance.decisions",
+      "policy.ratification",
+      "authority.records",
+      "delegation.registry"
+    ],
+    "consumes": [
+      "forge.stewardship",
+      "kernel.registry"
+    ]
+  },
+  "compliance": {
+    "jurisdictions": ["EG"],
+    "data_sensitivity": "public",
+    "controls": [
+      "ICBC",
+      "TESL_CANONICAL",
+      "FORGE_STEWARDSHIP",
+      "HUMAN_AUTHORITY",
+      "DECISION_LOGGING"
+    ]
+  },
+  "audit": {
+    "events": [
+      "policy.ratified",
+      "policy.updated",
+      "decision.recorded",
+      "authority.delegated",
+      "authority.revoked"
+    ],
+    "evidence_export": {
+      "formats": ["jsonl", "pdf"],
+      "retention_days": 365
+    }
+  },
+  "contacts": {
+    "owner": "Ayman Seif",
+    "security": "ayman@teosegypt.com"
+  }
 }
